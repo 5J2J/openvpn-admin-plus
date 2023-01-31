@@ -1,4 +1,4 @@
-module github.com/bnhf/openvpn-admin-plus
+module github.com/5J2J/openvpn-admin-plus
 
 go 1.17
 
