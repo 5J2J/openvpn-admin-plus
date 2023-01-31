@@ -1,4 +1,4 @@
-module github.com/bnhf/pivpn-tap-web-ui
+module github.com/bnhf/openvpn-admin-plus
 
 go 1.17
 
