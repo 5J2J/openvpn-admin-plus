@@ -9,7 +9,7 @@ ADD assets/start.sh /opt/start.sh
 ADD assets/generate_ca_and_server_certs.sh /opt/scripts/generate_ca_and_server_certs.sh
 ADD assets/vars.template /opt/scripts/
 
-ADD pivpn-tap-web-ui.tar.gz /opt/openvpn-gui-tap/
+ADD openvpn-admin-plus.tar.gz /opt/openvpn-gui-tap/
 RUN rm -f /opt/openvpn-gui-tap/data.db
 ADD assets/app.conf /opt/openvpn-gui-tap/conf/app.conf
 

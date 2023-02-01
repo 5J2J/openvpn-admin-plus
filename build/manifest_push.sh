@@ -1,2 +1,2 @@
-docker login --username bnhf
-docker manifest push bnhf/pivpn-tap-web-ui:manifest-latest
+docker login --username 5J2J
+docker manifest push 5J2J/openvpn-admin-plus:manifest-latest

@@ -6,11 +6,11 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"github.com/bnhf/go-openvpn/server/config"
+	"github.com/5J2J/go-openvpn/server/config"
 
-	//	mi "github.com/bnhf/go-openvpn/server/mi"
-	"github.com/bnhf/pivpn-tap-web-ui/lib"
-	"github.com/bnhf/pivpn-tap-web-ui/models"
+	//	mi "github.com/5J2J/go-openvpn/server/mi"
+	"github.com/5J2J/openvpn-admin-plus/lib"
+	"github.com/5J2J/openvpn-admin-plus/models"
 )
 
 type OVConfigController struct {

@@ -1,5 +1,5 @@
 docker manifest create \
-bnhf/pivpn-tap-web-ui:manifest-latest \
---amend bnhf/pivpn-tap-web-ui:manifest-amd64 \
---amend bnhf/pivpn-tap-web-ui:manifest-armv7 \
---amend bnhf/pivpn-tap-web-ui:manifest-arm64
+5J2J/openvpn-admin-plus:manifest-latest \
+--amend 5J2J/openvpn-admin-plus:manifest-amd64 \
+--amend 5J2J/openvpn-admin-plus:manifest-armv7 \
+--amend 5J2J/openvpn-admin-plus:manifest-arm64

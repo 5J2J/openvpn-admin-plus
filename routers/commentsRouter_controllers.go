@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISessionController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISessionController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISessionController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISessionController"],
         beego.ControllerComments{
             Method: "Get",
             Router: "/",
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISessionController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISessionController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISessionController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISessionController"],
         beego.ControllerComments{
             Method: "Kill",
             Router: "/",
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISignalController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISignalController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISignalController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISignalController"],
         beego.ControllerComments{
             Method: "Send",
             Router: "/",
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISysloadController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:APISysloadController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISysloadController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:APISysloadController"],
         beego.ControllerComments{
             Method: "Get",
             Router: "/",
@@ -43,7 +43,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "Get",
             Router: "/certificates",
@@ -52,7 +52,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "Post",
             Router: "/certificates",
@@ -61,7 +61,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "Download",
             Router: "/certificates/:key",
@@ -70,7 +70,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "Remove",
             Router: "/certificates/remove/:key/:serial",
@@ -79,7 +79,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "Revoke",
             Router: "/certificates/revoke/:key/:serial",
@@ -88,7 +88,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/bnhf/pivpn-tap-web-ui/controllers:CertificatesController"],
+    beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"] = append(beego.GlobalControllerRouter["github.com/5J2J/openvpn-admin-plus/controllers:CertificatesController"],
         beego.ControllerComments{
             Method: "DownloadSingleConfig",
             Router: "/certificates/single-config/:key",

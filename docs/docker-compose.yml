@@ -1,7 +1,7 @@
 version: '3'
 services:
   gui:
-    image: bnhf/openvpn-admin-plus:latest
+    image: 5J2J/openvpn-admin-plus:latest
     container_name: openvpn-gui-tap
     environment:
     - OPENVPN_ADMIN_USERNAME=admin

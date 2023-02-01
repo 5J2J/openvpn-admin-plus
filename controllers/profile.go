@@ -8,8 +8,8 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego/validation"
-	"github.com/bnhf/pivpn-tap-web-ui/lib"
-	"github.com/bnhf/pivpn-tap-web-ui/models"
+	"github.com/5J2J/openvpn-admin-plus/lib"
+	"github.com/5J2J/openvpn-admin-plus/models"
 )
 
 type ProfileController struct {

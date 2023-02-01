@@ -104,7 +104,7 @@ Optional, but highly recommended:
 * [organizr-Docker](https://hub.docker.com/r/organizr/organizr)
 * [watchtower](https://hub.docker.com/r/containrrr/watchtower)
 
-Portainer, Cockpit and pivpn-tap-web-ui can all be added as "vertical" tabs in organizr, for a clean single tab in your browser. All are iFrame compatible when accessed via http:// -- it'll work with https:// too, but not in the iFrame (new tab will open). watchtower can be setup to run once and then stop, updating all of your containers (including Portainer and watchtower itself).
+Portainer, Cockpit and openvpn-admin-plus can all be added as "vertical" tabs in organizr, for a clean single tab in your browser. All are iFrame compatible when accessed via http:// -- it'll work with https:// too, but not in the iFrame (new tab will open). watchtower can be setup to run once and then stop, updating all of your containers (including Portainer and watchtower itself).
 
 ![screenshot-brix-pc2-2022 03 09-14_50_38](https://user-images.githubusercontent.com/41088895/157542989-5f13f2e5-8b69-4958-a3dc-95270485efc0.png)
 
@@ -124,8 +124,8 @@ Optional, but recommended:
 
 Execute commands:
 
-    go get github.com/bnhf/openvpn-admin-plus
-    cd $GOPATH/src/github.com/bnhf/openvpn-admin-plus
+    go get github.com/5J2J/openvpn-admin-plus
+    cd $GOPATH/src/github.com/5J2J/openvpn-admin-plus
     go mod tidy
     bee run -gendoc=true
     bee pack -exr='^vendor|^data.db|^build|^README.md|^docs'
@@ -136,7 +136,7 @@ For building on ARM64 or ARMv7:
 
     In the dockerfile inside the build folder, comment out debian:bullseye as a source,
     and uncomment balenalib/raspberry-pi-debian:latest (ARMv7 only)
-    In build.sh, change the docker build to <your-docker-hub-repo-here>/pivpn-tap-web-ui:arm64 (or armv7)
+    In build.sh, change the docker build to <your-docker-hub-repo-here>/openvpn-admin-plus:arm64 (or armv7)
     It's highly recommended that you use Visual Studio Code with the "Remote - SSH" extension
     (in addition to the "Go" extension of course) from a more powerful machine
     

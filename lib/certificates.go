@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/bnhf/pivpn-tap-web-ui/models"
+	"github.com/5J2J/openvpn-admin-plus/models"
 )
 
 //Cert

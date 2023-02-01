@@ -52,5 +52,5 @@ fi
 
 mkdir -p db
 echo "Starting!"
-./pivpn-tap-web-ui
+./openvpn-admin-plus
 
