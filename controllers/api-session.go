@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 
-	mi "github.com/bnhf/go-openvpn/server/mi"
-	"github.com/bnhf/pivpn-tap-web-ui/models"
+	mi "github.com/5J2J/go-openvpn/server/mi"
+	"github.com/5J2J/openvpn-admin-plus/models"
 )
 
 //APISessionController manages vpn sessions
